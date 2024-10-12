@@ -1,0 +1,135 @@
+/*body
+{
+    background-image: linear-gradient(rgb(3, 18, 76), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+}*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    width: 100%;
+    background-image: linear-gradient(rgb(3, 18, 76), rgb(0, 0, 0));
+    background-repeat: no-repeat;    
+}
+
+.rectangle
+{
+    width: 30em;
+    height: 35em;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title
+{
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+h1
+{
+    color: rgb(79, 79, 79);
+}
+
+/*h3
+{
+    margin-top: 20px;
+    font-size: 30px;
+    color: gray;
+}*/
+
+.page /*button*/
+{
+    position: relative;
+    top: 70px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.images
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 110px;
+}
+
+img
+{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.insta
+{
+    border-radius: 50%;
+    border: solid 5px white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.spot
+{
+    border-radius: 50%;
+    border: solid 5px white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sound
+{
+    border-radius: 50%;
+    border: solid 5px white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.youtube
+{
+    border-radius: 50%;
+    border: solid 5px white;
+    background-color: white;
+    cursor: pointer;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+p
+{
+    padding: 10px;
+    margin: 2px;
+}
